@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { useSelector } from "react-redux"
-import { StyleSheet, Text, TextInput, View, Button, Image } from "react-native"
+import { StyleSheet, View, FlatList } from "react-native"
 
 import RatingCard from "../../../components/User/RatingCard"
 
