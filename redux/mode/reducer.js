@@ -1,8 +1,8 @@
 import { actionTypes } from "./types"
 
 const initialState = {
-	logged: true,
-	mode: "user",
+	logged: false,
+	mode: null,
 }
 
 export const modeReducer = (state = initialState, action) => {

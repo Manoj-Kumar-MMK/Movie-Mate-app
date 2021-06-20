@@ -3,7 +3,7 @@ import { actionTypes } from "./types"
 const initialState = {
 	token: {
 		loading: false,
-		data: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwY2UyODAyMTk4ODcyMDAyMDAwMjYwZSIsImVtYWlsIjoidGVtcEBnbWFpbC5jb20iLCJpYXQiOjE2MjQxMjMzOTQsImV4cCI6MTYyNDIwOTc5NH0.g1Sm19PLbHdRjQ1_NVK31LkSW0aoVZ2d2fnkVdb_dW0",
+		data: null,
 		error: null,
 	},
 	details: {
